@@ -8,7 +8,7 @@ Student student1 = new() { Id = 1, FullName = "Elmir Mikayilli", Birthday = new 
 
 BaseStudentManager xAcademyStudentManager = new XAcademyStudentManager();
 xAcademyStudentManager.Add(student1);
-
+//test
 BaseStudentManager yAcademyStudentManager = new YAcademyStudentManager();
 
 yAcademyStudentManager.Add(student1 );
